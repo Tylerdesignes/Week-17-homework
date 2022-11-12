@@ -47,14 +47,8 @@ nav {
 	font-size: 20px;
 	padding: 20px;
   }
- p {
-	text-align: center;
- }
  button{
 	text-align: center;
- }
- div class=city{
-
  }
  /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
@@ -62,18 +56,39 @@ nav {
 	max-height: 30%;
 
   }
-  
-  /* Add some content at the bottom of the video/page */
-  .content {
-	position:relative;
-	bottom: 0;
-	background: rgba(0, 0, 0, 0.5);
-	color: #f1f1f1;
-	width: 100%;
-	padding: 20px;
+  .content{
+	background-color: #222222;
+	color: #0094FF;
+	text-align: center;
   }
-  
-  #myBtn:hover {
-	background: #ddd;
-	color: black;
+  .city {
+	background-color:#222222;
+	color:#0094FF;
+	border: 2px solid black;
+	margin: 20px;
+	padding: 20px;
+	text-align: center;
+	align-self: center;
+  }
+  .button {
+	position:relative;
+	color: #0094FF;
+	text-align: center;
+	background-color: #222222;
+  }
+  .seemore {
+	position:relative;
+	color: #0094FF;
+	text-align: center;
+	background-color: #222222;
+	padding: 2px;
+  }
+  .projects{
+	background-color:#222222;
+	color:#0094FF;
+	border: 2px solid black;
+	margin: 20px;
+	padding: 20px;
+	text-align:right;
+	align-self:right;
   }
